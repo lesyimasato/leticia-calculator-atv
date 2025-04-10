@@ -73,7 +73,7 @@ fun CalculatorScreen(modifier: Modifier = Modifier) {
             ) {
 
                 CalculatorTextField("Digite o 1º número:", number1) { number1 = it }
-                CalculatorTextField("Digite o 1º número:", number2) { number2 = it }
+                CalculatorTextField("Digite o 2º número:", number2) { number2 = it }
 
                 LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     items(listOf("+", "-", "*", "/")) { op ->
